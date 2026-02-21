@@ -13,7 +13,8 @@ const app = express()
 
 app.use(morgan("dev"));
 app.use(cors({
-  origin: "http://localhost:3001",
+  // origin: "http://localhost:3001",
+  origin: "https://micro-market-frontend.onrender.com",
   credentials: true
 }));
 app.use(express.json());
