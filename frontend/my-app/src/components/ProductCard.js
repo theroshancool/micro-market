@@ -61,7 +61,7 @@ function ProductCard({ product }) {
   // ✅ FIXED IMAGE PATH
   const imageUrl =
   product.images && product.images.length > 0
-    ? `http://localhost:3000${product.images[0]}`
+    ? `https://micro-market-nh0l.onrender.com${product.images[0]}`
     : "https://via.placeholder.com/300";
 
     <img src={imageUrl} alt={product.title} />
